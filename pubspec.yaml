@@ -1,0 +1,14 @@
+name: uintnexo_webview
+description: A simple WebView app for uintnexo.com
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.0.7
+
+flutter:
+  uses-material-design: true
